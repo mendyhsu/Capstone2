@@ -18,11 +18,18 @@ In general, image classification poses an exciting computer vision puzzle and ha
 
 Here, we focus on data cleaning and feature engineering of **style.csv**. 
 
-1. s
-
-2. Refine the **Product Class** for Image Classification
-
+1. Refine the **Product Class** for Image Classification: 
    We defined a new categorical feature, `Class`, which combines the three hierarchical labels (`masterCategory`, `subCategory`, `articleType`). The **number of categories in** `Class` is **no larger than 35**. 
-
+2. 
 3. 
+
+
+
+## 3. EDA
+
+
+
+![html](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/EDA_figs/EDA_fig_FashionCate.pdf)
+
+
 
