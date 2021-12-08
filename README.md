@@ -29,7 +29,7 @@ Here, we focus on data cleaning and feature engineering of **style.csv**.
 
 
 
-![img](EDA_figs/EDA_fig_FashionCate.pdf)
+![img](EDA_figs/EDA_FashionCate_Refine.png)
 
 
 
