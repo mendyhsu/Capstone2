@@ -28,7 +28,7 @@ Modeling Notebooks: [ColorImages](TF2_CNN_Fashion_Products_30_BatchNorm_ver2.ipy
 * **44441** **images** (*.jpg).  Five images (id = 12347, 39401, 39403, 39410, 39425) are missing.
 
 
-## 
+
 
 ## 2. Data Wrangling and Feature Engineering
 
