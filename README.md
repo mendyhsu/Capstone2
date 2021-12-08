@@ -8,15 +8,27 @@ In general, image classification poses an exciting computer vision puzzle and ha
 
 
 
-## 1. Data Source
+## Documentation
+
+[Summary Report](Report_Slides/Final_Capstone_Report.pdf)
+
+[Slides](Report_Slides/Final_Capstone_Slides.pdf)
+
+[EDA Notebooks](Capstone2/EDA_Fashion_Products.ipynb)
+
+Modeling Notebooks: [ColorImages](TF2_CNN_Fashion_Products_30_BatchNorm_ver2.ipynb), [GrayScale](**TF2_CNN_FashionProducts_30_GrayScale_BatchNorm_ver2.ipynb**)
+
+
+
+## 1. Data Sources
 
 [**Fashion Product Images**](https://www.kaggle.com/paramaggarwal/fashion-product-images-small) **(545.62 MB, 44k colored images of size 80 x 60 x 3)**
 
 *  **styles.csv** contains 44446 rows and 10 columns.
-
 * **44441** **images** (*.jpg).  Five images (id = 12347, 39401, 39403, 39410, 39425) are missing.
 
-  
+
+## 
 
 ## 2. Data Wrangling and Feature Engineering
 
