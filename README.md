@@ -44,8 +44,9 @@ Here, we focus on data cleaning and feature engineering of **style.csv**.
    * However, about 105 samples listed as **Free Items** are mislabeled. We will address it in next section.
    
 2. Assign Classes to the Images Under the Ambiguous Category - Free Items
+   
    **How to relabel the** **_Free Items_**? The column `productDisplayName` contains various product descriptions/keywords, such as “watch”, “Saree”, etc. We reassigned proper `Class` to *Free Items* based on these keywords.
-
+   
 3. Export the Refined Spreadsheet
    The refined spreadsheet (44440-by-11) was saved as **styles_cleaned.csv**. 
 
@@ -155,7 +156,7 @@ __Figure3 Take-away__:
 
 * The classifier has the least performance on **Scarves (#20)** and **Sporting Goods (#24)**. 
 * Note that the **Sporting Goods** has the least number of images (25 total; 19 used in training) across all classes, thus we expected our model made more error in **Sporting Goods** than in the rest. 
-* For **Scarves**, the prediction fails when photo shows a model wearing a scarf, or its texture/shape is like other products (Accessories, Jewellery, or socks), see Figure 8 in [report](Report_Slides/Final_Capstone_Report.pdf).
+* For **Scarves**, the prediction fails when photo shows a model wearing a scarf, or its texture/shape is like other products (Accessories, Jewellery, or socks), c.r., [report](Report_Slides/Final_Capstone_Report.pdf) Figure 8.
 
 
 
