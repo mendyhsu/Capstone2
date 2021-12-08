@@ -29,7 +29,7 @@ Here, we focus on data cleaning and feature engineering of **style.csv**.
 
 
 
-![html](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/EDA_figs/EDA_fig_FashionCate.pdf)
+![img](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/EDA_figs/EDA_fig_FashionCate.pdf)
 
 
 
