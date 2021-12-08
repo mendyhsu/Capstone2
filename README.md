@@ -8,7 +8,7 @@ In general, image classification poses an exciting computer vision puzzle and ha
 
 
 
-##1. Data Source
+## 1. Data Source
 
 [**Fashion Product Images**](https://www.kaggle.com/paramaggarwal/fashion-product-images-small) **(545.62 MB, 44k colored images of size 80 x 60 x 3)**
 
