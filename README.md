@@ -136,7 +136,7 @@ __Figure3 Take-away__:
 
 
 
-![img](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/Color_Class30/MisPredict_test.png)
+![img](Color_Class30/MisPredict_test.png)
 
 Example of misclassified items (test sets). The model is commonly confused with “Sandal” and “Shoes”; “Topwear”, “T- Shirts” and “Shirts”. These items are sometimes ambiguous to classified with human eyes.
 
@@ -155,11 +155,11 @@ Figure 4: Confusion matrix shows the true and label when testing the model on th
 
 The predations on the mislabeled images that were originally listed as “*Free Items.*”
 
-![img](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/Color_Class30/NewPredict_unknown.png)
+![img](Color_Class30/NewPredict_unknown.png)
 
 
 
-![img](/Users/mendyhsu/Documents_m/Springboard_DataSci/Capstone2/Gray_Class30/NewPredict_unknown.png)
+![img](Gray_Class30/NewPredict_unknown.png)
 
 Figure 5: Perditions on unknown items. The text on the top of each image is the predicted label. The model trained with color image (left), or grayscale image (right) gives the same results.
 
