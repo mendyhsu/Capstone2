@@ -45,7 +45,7 @@ Here, we focus on data cleaning and feature engineering of **style.csv**.
    
 2. Assign Classes to the Images Under the Ambiguous Category - Free Items:
    
-   **How to relabel the** **_Free Items_**? The column `productDisplayName` contains various product descriptions/keywords, such as “watch”, “Saree”, etc. We reassigned proper `Class` to *Free Items* based on these keywords.
+   **How to relabel the** **_Free Items_**? The column `productDisplayName` contains various product descriptions/keywords, such as “watch”, “Saree”, etc. We reassigned proper `Class` to *Free Items* based on the **Text Similarity** (cosine similarly) between their keywords and the **30 labels**. 
    
 3. Export the Refined Spreadsheet:
    
