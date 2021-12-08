@@ -14,7 +14,7 @@ In general, image classification poses an exciting computer vision puzzle and ha
 
 [Slides](Report_Slides/Final_Capstone_Slides.pdf)
 
-[EDA Notebooks](Capstone2/EDA_Fashion_Products.ipynb)
+[EDA Notebooks](EDA_Fashion_Products.ipynb)
 
 Modeling Notebooks: [ColorImages](TF2_CNN_Fashion_Products_30_BatchNorm_ver2.ipynb), [GrayScale](TF2_CNN_FashionProducts_30_GrayScale_BatchNorm_ver2.ipynb)
 
