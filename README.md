@@ -102,26 +102,24 @@ Figure 1: Proportion of categorical labels in the original data frame (_styles.c
 
 __CNN architecture__:
 
+```
 Input --> Convo (ReLU) --> BatchNorm
-
-​		  --> Convo (ReLU) --> BatchNorm  --> Max Pooling 1  --> Dropout (0.2)
-
-​		  --> Convo (ReLU) --> BatchNorm
-
-​		  --> Convo (ReLU) --> BatchNorm  --> Max Pooling 2  --> Dropout (0.2)
-
- 		 --> FC layer (ReLU) --> BatchNorm  --> Dropout (0.25)
-
- 		 --> Output (Softmax)
+		  --> Convo (ReLU) --> BatchNorm  --> Max Pooling 1  --> Dropout (0.2)
+		  --> Convo (ReLU) --> BatchNorm
+		  --> Convo (ReLU) --> BatchNorm  --> Max Pooling 2  --> Dropout (0.2)
+		  --> FC layer (ReLU) --> BatchNorm  --> Dropout (0.25)
+      --> Output (Softmax)
+```
 
 We add two sets of convolutional and pooling layers, one with 32 filters and the other with 64. Having more layers does not improve the accuracy significantly but increases the training time. 
 
+
+
 __Loss function and metric__:
-	loss = "categorical_crossentropy"
 
-​	metrics = "accuracy"
-
-​	batch_size = 32
+* loss = "categorical_crossentropy"
+* metrics = "accuracy"
+* batch_size = 32
 
 
 
