@@ -6,6 +6,8 @@ Fashion e-commerce accounted for roughly [29.5 percent of the total fashion reta
 
 In general, image classification poses an exciting computer vision puzzle and has gotten many deep learning researchers' attentions. Building a classification model for fashion product images would be an excellent start to dive into deep neural networks. This project aims to get myself hands-on experience dealing with the imbalanced dataset, building Convolutional Neural Networks (CNN) for image classification with **Keras API** and evaluating the model performances.
 
+
+
 ##1. Data Source
 
 [**Fashion Product Images**](https://www.kaggle.com/paramaggarwal/fashion-product-images-small) **(545.62 MB, 44k colored images of size 80 x 60 x 3)**
