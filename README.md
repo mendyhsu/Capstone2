@@ -43,11 +43,12 @@ Here, we focus on data cleaning and feature engineering of **style.csv**.
    * The new categorical feature `Class` has 31 product labels.
    * However, about 105 samples listed as **Free Items** are mislabeled. We will address it in next section.
    
-2. Assign Classes to the Images Under the Ambiguous Category - Free Items
+2. Assign Classes to the Images Under the Ambiguous Category - Free Items:
    
    **How to relabel the** **_Free Items_**? The column `productDisplayName` contains various product descriptions/keywords, such as “watch”, “Saree”, etc. We reassigned proper `Class` to *Free Items* based on these keywords.
    
-3. Export the Refined Spreadsheet
+3. Export the Refined Spreadsheet:
+   
    The refined spreadsheet (44440-by-11) was saved as **styles_cleaned.csv**. 
 
 
